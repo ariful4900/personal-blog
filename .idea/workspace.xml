@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a1d8292-962d-4377-a092-0f8b1fe1b80c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/views/pages/dashboard/post/createPost.ejs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1jTXeqcW0PsxYzg3DYe6rwntBTs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/pages/dashboard/post" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/pages/dashboard/post" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a1d8292-962d-4377-a092-0f8b1fe1b80c" name="Default Changelist" comment="" />
+      <created>1603829155076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603829155076</updated>
+      <workItem from="1603829156342" duration="1174000" />
+      <workItem from="1603893974957" duration="1430000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="450" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603898718659">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="450" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1603898718659" />
+    <state x="701" y="358" width="559" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603829372938">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="701" y="358" width="559" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1603829372938" />
+    <state x="814" y="289" width="530" height="640" key="FileChooserDialogImpl" timestamp="1603894639137">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="814" y="289" width="530" height="640" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1603894639137" />
+    <state width="1821" height="251" key="GridCell.Tab.0.bottom" timestamp="1603830330469">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1821" height="251" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1603830330469" />
+    <state width="1821" height="251" key="GridCell.Tab.0.center" timestamp="1603830330468">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1821" height="251" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1603830330468" />
+    <state width="1821" height="251" key="GridCell.Tab.0.left" timestamp="1603830330468">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1821" height="251" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1603830330468" />
+    <state width="1821" height="251" key="GridCell.Tab.0.right" timestamp="1603830330469">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1821" height="251" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1603830330469" />
+    <state x="586" y="147" width="1125" height="933" key="SettingsEditor" timestamp="1603829985523">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="586" y="147" width="1125" height="933" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1603829985523" />
+  </component>
+</project>

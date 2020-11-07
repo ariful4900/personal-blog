@@ -1,0 +1,81 @@
+<%- include('../../partials/header.ejs') %>
+
+<div class="conatainer my-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card card-body">
+                <div>
+                    <img src="<%= author.profilePics %> " alt="" class="img-thumbnail img-fluid">
+                </div>
+                <div>
+                    <h3>Name: <strong><%= author.profile.name %> </strong> </h3>
+                    <h5>Title: <strong><%= author.profile.title %> </strong> <br></h5>
+                    <p>Bio: <strong><%= author.profile.bio %> </strong> <br></p>
+
+                    <div>
+                        <u><strong>Social Links</strong></u> :
+                        <% if(author.profile.links.website){ %>
+                        <span>
+                            <a href="<%= author.profile.links.website%> ">
+                                <i class="fa fa-internet-explorer"></i>
+                            </a>
+                        </span>
+                        <% } %>
+                        <% if(author.profile.links.facebook){ %>
+                        <span>
+                            <a href="<%= author.profile.links.facebook%> ">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </span>
+                        <% } %> <% if(author.profile.links.twitter){ %>
+                        <span>
+                            <a href="<%= author.profile.links.twitter%> ">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </span>
+                        <% } %> <% if(author.profile.links.github){ %>
+                        <span>
+                            <a href="<%= author.profile.links.website%> ">
+                                <i class="fa fa-github-square"></i>
+                            </a>
+                        </span>
+                        <% } %>
+                    </div>
+                </div>
+            </div>
+            <section>
+                <h3 class="mt-4 py-4 text-center"> All Posts</h3>
+                <% if(author.profile.posts){ %>
+                <% for(let post of author.profile.posts.reverse()) {%>
+
+                <div class="card card-body my-1">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <a href="/explorer/<%= post._id %>"> <h5><%= post.title %> </h4></a>
+                               
+                                <p>
+                                    <% if(post.tags){ %> 
+                                        <% for(let tag of post.tags) {%>
+                                            <span><%= tag %> </span>
+                                        <% } %>  
+                                    <% } %> 
+                                </p>
+                                </div>
+                                <img src=" <%= post.thumbnail %> " alt="" style=" width:100px">
+                        </div>
+                    </div>
+                    <% } %>
+                    <% }else{ %>
+                    <p><strong><%= author.profile.name %> </strong> have not any post</p>
+                    <% } %>
+            </section>
+        </div>
+    </div>
+</div>
+
+<%- include('../../partials/footer.ejs') %>
+<script src="/scripts/main-script.js"></script>
+
+</body>
+
+</html>

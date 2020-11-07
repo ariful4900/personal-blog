@@ -1,0 +1,10 @@
+<% if(user){ %>
+                       <span class="ml-auto bookmark" data-post="<%= post._id %> ">
+                            <% if(bookmarks.includes(post._id)){ %> 
+                                <i class="fa fa-bookmark"></i>
+                          <% }else{ %> 
+                            <i class="fa fa-bookmark-o"></i>
+                           <% } %> 
+                      </span>
+
+                    <% } %> 
